@@ -215,6 +215,12 @@ a[href]:hover, a[href]:focuss {
     font-size: 1.2em;
     font-weight: normal;
   }
+  .tabs-content .button {
+    border: 2px solid $aluminum;
+  }
+  .tabs-content .button:hover {
+    border: 2px solid $cream-can;
+  }
 }
 
 .footer {

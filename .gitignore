@@ -1,0 +1,9 @@
+# windows thumbnail cache
+Thumbs.db
+
+#foundation libs
+/bower_components/*
+/.sass-cache/*
+*.DS_Store
+/stylesheets/*
+/nbproject/private/

@@ -15,13 +15,13 @@
         <aside class="left-off-canvas-menu">
           <ul class="off-canvas-list">
             <li><label>Zauru</label></li>
-            <li><a href="#">Producto</a></li>
-            <li><a href="#">Módulo</a></li>
-            <li><a href="#">Clientes</a></li>
-            <li><a href="#">Cómo Adquirirlo</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#product">Producto</a></li>
+            <li><a href="#modules">Módulo</a></li>
+            <li><a href="#customers">Clientes</a></li>
+            <li><a href="#contact">Cómo Adquirirlo</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">Blog</a></li>
             <li class="gs"><p><a href="#" class="button">Ingresar</a></p></li>
           </ul>
         </aside>
@@ -38,7 +38,7 @@
 
         
         
-        <div class="fixed contain-to-grid hide-for-medium-down">
+        <div class="fixed contain-to-grid hide-for-medium-down" data-magellan-expedition="">
           <nav class="top-bar" data-topbar role="navigation">
             <ul class="title-area">
               <li class="name">
@@ -51,13 +51,11 @@
             <section class="top-bar-section">
               <!-- Left Nav Section -->
               <ul class="left">
-                <li class="active"><a href="#">Producto</a></li>
-                <li><a href="#">Módulos</a></li>
-                <li><a href="#">Clientes</a></li>
-                <li><a href="#">Cómo Aquirirlo</a></li>
-                <li class="small"><a href="#">FAQ</a></li>
-                <li class="small"><a href="#">Nosotros</a></li>
-                <li class="small"><a href="#">Blog</a></li>
+                <li data-magellan-arrival="product"><a href="#product">Producto</a></li>
+                <li data-magellan-arrival="modules"><a href="#modules">Módulos</a></li>
+                <li data-magellan-arrival="customers"><a href="#customers">Clientes</a></li>
+                <li data-magellan-arrival="contact"><a href="#contact">Cómo Aquirirlo</a></li>
+                <li><a href=" ">FAQ</a></li>
               </ul>
               <!-- Right Nav Section -->
               <ul class="right">
@@ -92,7 +90,9 @@
           </div>
         </div>
         
-        <section class="product">
+        
+        <section class="product" data-magellan-destination="product">
+          <a name="product"></a>
           <div class="row">
             <h2 class="text-center">Tecnología web de última generación</h2>
             <h5 class="text-center">Plataforma multi-usuario, multi-moneda y multi-empresa.<br>Zauru te provee estas ventajas aprovechando las bondades del internet.</h5>
@@ -155,7 +155,8 @@ Da seguimiento inmediato del estado de un proceso.</p>
           </div>
         </section>
         
-        <section class="modules">
+        <section class="modules" data-magellan-destination="modules">
+          <a name="modules"></a>
           <div class="row">
             <h2 class="text-center">Módulos</h2>
             <h5 class="text-center">Personaliza el sistema en base a tus necesidades</h5>
@@ -252,7 +253,8 @@ Da seguimiento inmediato del estado de un proceso.</p>
           </div>
         </section>
         
-        <section class="customers">
+        <section class="customers" data-magellan-destination="customers">
+          <a name="customers"></a>
           <div class="row">
             <h2 class="text-center">Clientes</h2>
             <h5 class="text-center">Actualmente atendemos a varias industrias.</h5>
@@ -296,7 +298,8 @@ Da seguimiento inmediato del estado de un proceso.</p>
           </div>
         </section>
         
-        <section class="contact">
+        <section class="contact" data-magellan-destination="contact">
+          <a name="contact"></a>
           <div class="row">
             <h2 class="text-center">Como Aquirir el Servicio</h2>
             <h5 class="text-center">Contacta nuestros distribuidores en cada pais</h5>
@@ -389,6 +392,7 @@ Da seguimiento inmediato del estado de un proceso.</p>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

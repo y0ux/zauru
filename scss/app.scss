@@ -133,9 +133,17 @@ a[href]:hover, a[href]:focuss {
   .image-as-background {
     position: absolute;
     top: 0;
-    width: 100%;
-    height: auto;
-    
+    max-width: none;
+    &.wider {
+      width: 100%;
+      height: auto;
+      top: auto;
+      bottom: 0;
+    }
+    &.higher {
+      width: auto;
+      height: 100%;
+    }
   }
   .ad-text {
     background: rgba($black, 0.4);
@@ -171,10 +179,16 @@ a[href]:hover, a[href]:focuss {
     color: #b08b0a;
   }
   h4 {
-    color: #c4a020;
+    //color: #c4a020;
+    color: $white;
+    padding: 0 8px;
   }
   h5 {
     color: $white;
+  }
+  ul {
+    padding: 0 8px;
+    list-style-position: inside;
   }
 }
 
@@ -260,24 +274,45 @@ a[href]:hover, a[href]:focuss {
   .left, a:link, a:visited {
     font-size: rem-calc(13);
   }
-  .inline-list {
+  ul {
     margin: 0;
     padding: 0;
+    list-style-type: none;
   }
-  .inline-list a:link, a:visited {
+  li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  ul li a:link, a:visited {
     color: $jet;
     line-height: normal;
   }
 }
 
 @media #{$medium-down} {
-  body {
-    padding-top: 0;
+  .f-topbar-fixed {
+    padding-top: 0 !important;
   }
   .ribbon {
     .container {
 
       line-height: normal;
+    }
+  }
+  .text-center-on-medium-down {
+    text-align: center;
+  }
+  .block-on-medium-down {
+    display: block;
+    float: none !important;
+  }
+  .copyright {
+    ul {
+      text-align: center;
+      float: none !important;
+    }
+    li {
+      padding: 8px 10px;
     }
   }
 }

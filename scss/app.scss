@@ -123,6 +123,11 @@ a[href]:hover, a[href]:focuss {
   }
 } //.top-bar
 
+.row {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 
 .homepage-ad {
   position: relative;
@@ -131,19 +136,13 @@ a[href]:hover, a[href]:focuss {
   overflow: hidden;
   
   .image-as-background {
+    background-size: cover;
+    background-position: right bottom;
+    height: 100%;
     position: absolute;
-    top: 0;
-    max-width: none;
-    &.wider {
-      width: 100%;
-      height: auto;
-      top: auto;
-      bottom: 0;
-    }
-    &.higher {
-      width: auto;
-      height: 100%;
-    }
+    bottom: 0;
+    left: 0;
+    right:0;
   }
   .ad-text {
     background: rgba($black, 0.4);
@@ -307,9 +306,11 @@ a[href]:hover, a[href]:focuss {
     float: none !important;
   }
   .copyright {
+    .right {
+      float: none !important;
+    }
     ul {
       text-align: center;
-      float: none !important;
     }
     li {
       padding: 8px 10px;

@@ -9095,235 +9095,236 @@ a[href]:hover, a[href]:focuss {
   text-decoration: none;
 }
 
-/* line 127, ../scss/app.scss */
+/* line 126, ../scss/app.scss */
+.row {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* line 132, ../scss/app.scss */
 .homepage-ad {
   position: relative;
   padding: 100px 0 0;
   min-height: 650px;
   overflow: hidden;
 }
-/* line 133, ../scss/app.scss */
+/* line 138, ../scss/app.scss */
 .homepage-ad .image-as-background {
-  position: absolute;
-  top: 0;
-  max-width: none;
-}
-/* line 137, ../scss/app.scss */
-.homepage-ad .image-as-background.wider {
-  width: 100%;
-  height: auto;
-  top: auto;
-  bottom: 0;
-}
-/* line 143, ../scss/app.scss */
-.homepage-ad .image-as-background.higher {
-  width: auto;
+  background-size: cover;
+  background-position: right bottom;
   height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
-/* line 148, ../scss/app.scss */
+/* line 147, ../scss/app.scss */
 .homepage-ad .ad-text {
   background: rgba(0, 0, 0, 0.4);
   padding: 20px;
 }
-/* line 152, ../scss/app.scss */
+/* line 151, ../scss/app.scss */
 .homepage-ad h1, .homepage-ad h5, .homepage-ad .button {
   color: #FFFFFF;
 }
-/* line 155, ../scss/app.scss */
+/* line 154, ../scss/app.scss */
 .homepage-ad .button:hover {
   color: #444444;
 }
 
-/* line 160, ../scss/app.scss */
+/* line 159, ../scss/app.scss */
 .ribbon {
   background: #EEEEEE;
 }
-/* line 162, ../scss/app.scss */
+/* line 161, ../scss/app.scss */
 .ribbon .container {
   padding: 10px 0;
   color: #AAAAAA;
   font-size: 0.92857rem;
 }
 
-/* line 169, ../scss/app.scss */
+/* line 168, ../scss/app.scss */
 .features {
   background: #bab8b2;
 }
-/* line 171, ../scss/app.scss */
+/* line 170, ../scss/app.scss */
 .features h2, .features h4 {
   color: #FFFFFF;
 }
 
-/* line 176, ../scss/app.scss */
+/* line 175, ../scss/app.scss */
 .modules {
   background: #f5d76e;
 }
-/* line 178, ../scss/app.scss */
+/* line 177, ../scss/app.scss */
 .modules h2 {
   color: #b08b0a;
 }
-/* line 181, ../scss/app.scss */
+/* line 180, ../scss/app.scss */
 .modules h4 {
   color: #FFFFFF;
   padding: 0 8px;
 }
-/* line 186, ../scss/app.scss */
+/* line 185, ../scss/app.scss */
 .modules h5 {
   color: #FFFFFF;
 }
-/* line 189, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 .modules ul {
   padding: 0 8px;
   list-style-position: inside;
 }
 
-/* line 196, ../scss/app.scss */
+/* line 195, ../scss/app.scss */
 .customers h2 {
   color: #333333;
 }
-/* line 199, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
 .customers h5 {
   color: #777777;
 }
 
-/* line 204, ../scss/app.scss */
+/* line 203, ../scss/app.scss */
 .contact {
   background: #DDDDDD;
 }
-/* line 206, ../scss/app.scss */
+/* line 205, ../scss/app.scss */
 .contact h2 {
   color: #777777;
 }
-/* line 209, ../scss/app.scss */
+/* line 208, ../scss/app.scss */
 .contact h5 {
   color: #999999;
 }
-/* line 212, ../scss/app.scss */
+/* line 211, ../scss/app.scss */
 .contact [class^="icon-"], .contact [class*=" icon-"] {
   opacity: .2;
 }
-/* line 215, ../scss/app.scss */
+/* line 214, ../scss/app.scss */
 .contact .tabs {
   width: 100% !important;
   max-width: none;
 }
-/* line 219, ../scss/app.scss */
+/* line 218, ../scss/app.scss */
 .contact .tabs a {
   background: transparent;
 }
-/* line 222, ../scss/app.scss */
+/* line 221, ../scss/app.scss */
 .contact .tabs a:hover, .contact .tabs a:focus {
   text-decoration: none;
 }
-/* line 225, ../scss/app.scss */
+/* line 224, ../scss/app.scss */
 .contact .tabs dd.active a {
   background: #CCCCCC;
 }
-/* line 228, ../scss/app.scss */
+/* line 227, ../scss/app.scss */
 .contact .tabs-content dt {
   font-size: 1.2em;
   font-weight: normal;
 }
-/* line 232, ../scss/app.scss */
+/* line 231, ../scss/app.scss */
 .contact .tabs-content .button {
   border: 2px solid #999999;
 }
-/* line 235, ../scss/app.scss */
+/* line 234, ../scss/app.scss */
 .contact .tabs-content .button:hover {
   border: 2px solid #f5d76e;
 }
 
-/* line 240, ../scss/app.scss */
+/* line 239, ../scss/app.scss */
 .footer {
   background: #605f5a;
   color: #f5d76e;
   padding: 30px 0;
 }
-/* line 244, ../scss/app.scss */
+/* line 243, ../scss/app.scss */
 .footer ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
-/* line 250, ../scss/app.scss */
+/* line 249, ../scss/app.scss */
 .footer li {
   display: inline-block;
   padding: 8px 10px;
 }
-/* line 254, ../scss/app.scss */
+/* line 253, ../scss/app.scss */
 .footer ul, .footer a:link, .footer a:visited {
   font-size: 0.92857rem;
 }
-/* line 257, ../scss/app.scss */
+/* line 256, ../scss/app.scss */
 .footer a.icon {
   font-size: 1.07143rem;
 }
-/* line 260, ../scss/app.scss */
+/* line 259, ../scss/app.scss */
 .footer a:link, .footer a:visited {
   color: #FFFFFF;
 }
-/* line 264, ../scss/app.scss */
+/* line 263, ../scss/app.scss */
 .footer img {
   max-width: 100%;
 }
 
-/* line 269, ../scss/app.scss */
+/* line 268, ../scss/app.scss */
 .copyright {
   background: #f5d76e;
   color: #9a6e10;
   line-height: normal;
   padding: 10px 0;
 }
-/* line 274, ../scss/app.scss */
+/* line 273, ../scss/app.scss */
 .copyright .left, .copyright a:link, .copyright a:visited {
   font-size: 0.92857rem;
 }
-/* line 277, ../scss/app.scss */
+/* line 276, ../scss/app.scss */
 .copyright ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-/* line 282, ../scss/app.scss */
+/* line 281, ../scss/app.scss */
 .copyright li {
   display: inline-block;
   padding: 0px 10px;
 }
-/* line 286, ../scss/app.scss */
+/* line 285, ../scss/app.scss */
 .copyright ul li a:link, .copyright a:visited {
   color: #222222;
   line-height: normal;
 }
 
 @media only screen and (max-width: 64em) {
-  /* line 293, ../scss/app.scss */
+  /* line 292, ../scss/app.scss */
   .f-topbar-fixed {
     padding-top: 0 !important;
   }
 
-  /* line 297, ../scss/app.scss */
+  /* line 296, ../scss/app.scss */
   .ribbon .container {
     line-height: normal;
   }
 
-  /* line 302, ../scss/app.scss */
+  /* line 301, ../scss/app.scss */
   .text-center-on-medium-down {
     text-align: center;
   }
 
-  /* line 305, ../scss/app.scss */
+  /* line 304, ../scss/app.scss */
   .block-on-medium-down {
     display: block;
     float: none !important;
   }
 
-  /* line 310, ../scss/app.scss */
-  .copyright ul {
-    text-align: center;
+  /* line 309, ../scss/app.scss */
+  .copyright .right {
     float: none !important;
   }
-  /* line 314, ../scss/app.scss */
+  /* line 312, ../scss/app.scss */
+  .copyright ul {
+    text-align: center;
+  }
+  /* line 315, ../scss/app.scss */
   .copyright li {
     padding: 8px 10px;
   }
@@ -9335,7 +9336,7 @@ a[href]:hover, a[href]:focuss {
   font-weight: normal;
   font-style: normal;
 }
-/* line 333, ../scss/app.scss */
+/* line 334, ../scss/app.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'fonticon';
   speak: none;
@@ -9349,217 +9350,217 @@ a[href]:hover, a[href]:focuss {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 347, ../scss/app.scss */
+/* line 348, ../scss/app.scss */
 .icon-stack:before {
   content: "\e602";
 }
 
-/* line 350, ../scss/app.scss */
+/* line 351, ../scss/app.scss */
 .icon-box:before {
   content: "\e601";
 }
 
-/* line 353, ../scss/app.scss */
+/* line 354, ../scss/app.scss */
 .icon-truck:before {
   content: "\e600";
 }
 
-/* line 356, ../scss/app.scss */
+/* line 357, ../scss/app.scss */
 .icon-envelope-o:before {
   content: "\f003";
 }
 
-/* line 359, ../scss/app.scss */
+/* line 360, ../scss/app.scss */
 .icon-user:before {
   content: "\f007";
 }
 
-/* line 362, ../scss/app.scss */
+/* line 363, ../scss/app.scss */
 .icon-clock-o:before {
   content: "\f017";
 }
 
-/* line 365, ../scss/app.scss */
+/* line 366, ../scss/app.scss */
 .icon-lock:before {
   content: "\f023";
 }
 
-/* line 368, ../scss/app.scss */
+/* line 369, ../scss/app.scss */
 .icon-tags:before {
   content: "\f02c";
 }
 
-/* line 371, ../scss/app.scss */
+/* line 372, ../scss/app.scss */
 .icon-map-marker:before {
   content: "\f041";
 }
 
-/* line 374, ../scss/app.scss */
+/* line 375, ../scss/app.scss */
 .icon-chevron-left:before {
   content: "\f053";
 }
 
-/* line 377, ../scss/app.scss */
+/* line 378, ../scss/app.scss */
 .icon-chevron-right:before {
   content: "\f054";
 }
 
-/* line 380, ../scss/app.scss */
+/* line 381, ../scss/app.scss */
 .icon-exclamation-circle:before {
   content: "\f06a";
 }
 
-/* line 383, ../scss/app.scss */
+/* line 384, ../scss/app.scss */
 .icon-shopping-cart:before {
   content: "\f07a";
 }
 
-/* line 386, ../scss/app.scss */
+/* line 387, ../scss/app.scss */
 .icon-bar-chart-o:before {
   content: "\f080";
 }
 
-/* line 389, ../scss/app.scss */
+/* line 390, ../scss/app.scss */
 .icon-gears:before {
   content: "\f085";
 }
 
-/* line 392, ../scss/app.scss */
+/* line 393, ../scss/app.scss */
 .icon-comments:before {
   content: "\f086";
 }
 
-/* line 395, ../scss/app.scss */
+/* line 396, ../scss/app.scss */
 .icon-phone:before {
   content: "\f095";
 }
 
-/* line 398, ../scss/app.scss */
+/* line 399, ../scss/app.scss */
 .icon-twitter:before {
   content: "\f099";
 }
 
-/* line 401, ../scss/app.scss */
+/* line 402, ../scss/app.scss */
 .icon-facebook:before {
   content: "\f09a";
 }
 
-/* line 404, ../scss/app.scss */
+/* line 405, ../scss/app.scss */
 .icon-envelope:before {
   content: "\f0e0";
 }
 
-/* line 407, ../scss/app.scss */
+/* line 408, ../scss/app.scss */
 .icon-linkedin:before {
   content: "\f0e1";
 }
 
-/* line 410, ../scss/app.scss */
+/* line 411, ../scss/app.scss */
 .icon-comments-o:before {
   content: "\f0e6";
 }
 
-/* line 413, ../scss/app.scss */
+/* line 414, ../scss/app.scss */
 .icon-flash:before {
   content: "\f0e7";
 }
 
-/* line 416, ../scss/app.scss */
+/* line 417, ../scss/app.scss */
 .icon-sitemap:before {
   content: "\f0e8";
 }
 
-/* line 419, ../scss/app.scss */
+/* line 420, ../scss/app.scss */
 .icon-cloud-upload:before {
   content: "\f0ee";
 }
 
-/* line 422, ../scss/app.scss */
+/* line 423, ../scss/app.scss */
 .icon-angle-double-left:before {
   content: "\f100";
 }
 
-/* line 425, ../scss/app.scss */
+/* line 426, ../scss/app.scss */
 .icon-angle-double-right:before {
   content: "\f101";
 }
 
-/* line 428, ../scss/app.scss */
+/* line 429, ../scss/app.scss */
 .icon-angle-double-up:before {
   content: "\f102";
 }
 
-/* line 431, ../scss/app.scss */
+/* line 432, ../scss/app.scss */
 .icon-angle-double-down:before {
   content: "\f103";
 }
 
-/* line 434, ../scss/app.scss */
+/* line 435, ../scss/app.scss */
 .icon-angle-left:before {
   content: "\f104";
 }
 
-/* line 437, ../scss/app.scss */
+/* line 438, ../scss/app.scss */
 .icon-angle-right:before {
   content: "\f105";
 }
 
-/* line 440, ../scss/app.scss */
+/* line 441, ../scss/app.scss */
 .icon-angle-up:before {
   content: "\f106";
 }
 
-/* line 443, ../scss/app.scss */
+/* line 444, ../scss/app.scss */
 .icon-angle-down:before {
   content: "\f107";
 }
 
-/* line 446, ../scss/app.scss */
+/* line 447, ../scss/app.scss */
 .icon-chevron-circle-left:before {
   content: "\f137";
 }
 
-/* line 449, ../scss/app.scss */
+/* line 450, ../scss/app.scss */
 .icon-chevron-circle-right:before {
   content: "\f138";
 }
 
-/* line 452, ../scss/app.scss */
+/* line 453, ../scss/app.scss */
 .icon-chevron-circle-up:before {
   content: "\f139";
 }
 
-/* line 455, ../scss/app.scss */
+/* line 456, ../scss/app.scss */
 .icon-chevron-circle-down:before {
   content: "\f13a";
 }
 
-/* line 458, ../scss/app.scss */
+/* line 459, ../scss/app.scss */
 .icon-unlock-alt:before {
   content: "\f13e";
 }
 
-/* line 461, ../scss/app.scss */
+/* line 462, ../scss/app.scss */
 .icon-dollar:before {
   content: "\f155";
 }
 
-/* line 464, ../scss/app.scss */
+/* line 465, ../scss/app.scss */
 .icon-archive:before {
   content: "\f187";
 }
 
-/* line 467, ../scss/app.scss */
+/* line 468, ../scss/app.scss */
 .icon-institution:before {
   content: "\f19c";
 }
 
-/* line 470, ../scss/app.scss */
+/* line 471, ../scss/app.scss */
 .icon-cube:before {
   content: "\f1b2";
 }
 
-/* line 473, ../scss/app.scss */
+/* line 474, ../scss/app.scss */
 .icon-cubes:before {
   content: "\f1b3";
 }

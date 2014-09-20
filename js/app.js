@@ -10,7 +10,7 @@ $( document ).ready(function() {
   // Returns height of browser viewport
   windowHeight = viewportHeight();
   windowWidth = viewportWidth();
-  console.log("window: "+windowWidth+","+windowHeight);
+  //console.log("window: "+windowWidth+","+windowHeight);
   //alert(windowWidth+","+windowHeight);
   $(window).resize(function() {
     //windowHeight = viewportHeight();
@@ -20,7 +20,7 @@ $( document ).ready(function() {
 });
 
 $(window).load(function() {
-  console.log("everythig loaded");
+  //console.log("everythig loaded");
   imageAsBackground();
   $(window).resize(function() {
     //imageAsBackground();
@@ -28,7 +28,7 @@ $(window).load(function() {
 });
 
 function imageAsBackground() {
-  console.log("window: "+windowWidth+","+windowHeight);
+  //console.log("window: "+windowWidth+","+windowHeight);
   var image = $(".image-as-background");
   $(".homepage-ad").each(function(){
     var padding = $(this).outerHeight() - $(this).height(),
@@ -37,10 +37,10 @@ function imageAsBackground() {
     imageW = image.width(),
     imageH = image.height();
     
-    console.log("extra: "+extra);
-    console.log("padding: "+padding);
-    console.log("info: "+info);
-    console.log("image: "+imageW+","+imageH);
+    //console.log("extra: "+extra);
+    //console.log("padding: "+padding);
+    //console.log("info: "+info);
+    //console.log("image: "+imageW+","+imageH);
     
     $(this).css('min-height',padding+info);
     
@@ -54,18 +54,18 @@ function imageAsBackground() {
       //$(this).height('650');
 
     }
-    if ($(this).height() >= $(this).width()) {
-      if (image.height() >= $(this).height())
-        image.removeClass('higher').addClass('wider');
-      else
-        image.removeClass('wider').addClass('higher');
-    }
-    else {
-      if (image.width() >= $(this).width())
-        image.removeClass('wider').addClass('higher');
-      else
-        image.removeClass('higher').addClass('wider');
-    } 
+//    if ($(this).height() >= $(this).width()) {
+//      if (image.height() >= $(this).height())
+//        image.removeClass('higher').addClass('wider');
+//      else
+//        image.removeClass('wider').addClass('higher');
+//    }
+//    else {
+//      if (image.width() >= $(this).width())
+//        image.removeClass('wider').addClass('higher');
+//      else
+//        image.removeClass('higher').addClass('wider');
+//    } 
   });
 }
 function viewportHeight() {
